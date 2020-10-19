@@ -1,0 +1,7 @@
+const id = '';
+const token = '';
+
+const webhook = new Discord.WebhookClient(id, token);
+
+webhook.send('Hello world.')
+  .catch(console.error);
